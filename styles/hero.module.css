@@ -1,0 +1,131 @@
+.heroContent {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    padding: 0 6rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    color: rgba(5, 150, 105, 1);
+    gap: 0.5rem;
+}
+
+.heroLogo {
+    width: 10%;
+    height: auto;
+}
+
+.text {
+    width: 20%;
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+.heroTitle2 {
+    width: 100%;
+}
+
+.greenText {
+    color: rgba(5, 150, 105, 1);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.right {
+    width: 50vw;
+    position: relative;
+}
+
+.heroImg {
+    height: auto;
+    width: 160%;
+    display: block;
+}
+
+.discountDiv {
+    gap: 2rem;
+    display: flex;
+    height: 7rem;
+    color: rgba(5, 150, 105, 1);
+    justify-content: space-between;
+    border: 1px solid white;
+    position: absolute;
+    top: 73%;
+    left: -11%;
+    background-color: white;
+    padding: 1rem 1.5rem;
+}
+
+.Text1 {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    height: 1rem;
+    align-items: center;
+}
+.Text2 {
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 1px solid green;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.timeDiv {
+    background: linear-gradient(45deg, #059669 0%, #10b981 100%), #059669;
+    height: 6rem;
+    width: 56%;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: -8%;
+    padding: 0rem 3rem;
+    color: white;
+    gap: 0rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.timeText {
+    font-size: 1rem;
+}
+
+.colon {
+    font-size: 2rem;
+}
+
+.buttons {
+    margin-top: 4rem;
+}
+
+.button2 {
+    border: 1px solid rgba(0, 0, 0, 0.573);
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
