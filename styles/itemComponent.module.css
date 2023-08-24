@@ -1,0 +1,60 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+    /* max-width: calc(33.33% - 20px); */
+    background: linear-gradient(45deg, #059669 0%, #10b981 100%), #059669;
+    border: 1px solid #1301010c;
+    padding: 3rem 4rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+.name {
+    font-size: 2.5rem;
+    width: calc(100% - 20%);
+    line-height: 3rem;
+}
+
+.line img {
+    width: 100%;
+}
+
+.both {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.price {
+    font-size: 1.5rem;
+}
+.number {
+    font-size: 1.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.end {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
