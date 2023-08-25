@@ -19,7 +19,8 @@ const Hero = () => {
                 </div>
                 <div className={styles.title}>
                     <div className={styles.heroTitle1}>
-                        Be <span className={styles.greenText}>Beautiful</span>
+                        <span className={styles.heroTitle2}>Be</span>
+                        <span className={styles.greenText}>Beautiful</span>
                     </div>
                     <div className={styles.heroTitle2}>
                         You need time for perfection
@@ -29,7 +30,8 @@ const Hero = () => {
                     <div className={styles.button1}>
                         <Buttons
                             text="Become a member"
-                            backgroundGradient=" linear-gradient(45deg, #059669 0%, #10b981 100%), #059669"
+                            backgroundGradient=" linear-gradient(0deg, #059669 0%, #36DCA5 100%);
+                            "
                             fontSize="1.2rem"
                             textColor="white"
                         />
@@ -38,7 +40,7 @@ const Hero = () => {
                         <Buttons
                             text="see pricing"
                             backgroundColor="white"
-                            textColor="green"
+                            textColor="#10B981"
                             fontSize="1.2rem"
                         />
                     </div>

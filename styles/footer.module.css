@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    color: green;
     padding-bottom: 3rem;
 }
 
@@ -21,6 +22,10 @@
 
 .logoText {
     width: 50%;
+}
+
+.h4 {
+    color: rgb(1, 86, 1);
 }
 
 .about {

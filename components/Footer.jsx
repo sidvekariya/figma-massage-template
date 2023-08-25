@@ -22,19 +22,19 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.about}>
-                    <h4>About</h4>
+                    <h4 className={styles.h4}>About</h4>
                     <div>Profile</div>
                     <div>Services</div>
                     <div>Pricing</div>
                 </div>
                 <div className={styles.articles}>
-                    <h4>Articles</h4>
+                    <h4 className={styles.h4}>Articles</h4>
                     <div>Healthline</div>
                     <div>News</div>
                     <div>Promos</div>
                 </div>
                 <div className={styles.contact}>
-                    <h4>Contact</h4>
+                    <h4 className={styles.h4}>Contact</h4>
                     <div className={styles.phoneNumber}>
                         <LuPhoneCall />
                         <h4>0351 2799 2331</h4>

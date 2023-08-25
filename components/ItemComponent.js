@@ -36,7 +36,8 @@ const MassageCardList = () => {
                 <div className={styles.serviceButton}>
                     <Buttons
                         text="More services"
-                        backgroundGradient=" linear-gradient(45deg, #059669 0%, #10b981 100%), #059669"
+                        backgroundGradient=" linear-gradient(270deg, #059669 0%, #10B981 100%);
+                            "
                         fontSize="1.2rem"
                         textColor="white"
                     />

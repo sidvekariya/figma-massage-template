@@ -7,7 +7,7 @@ const Product = () => {
     return (
         <div className={styles.content}>
             <div className={styles.greenDiv}></div>
-            {}{" "}
+
             <div className={styles.left}>
                 <h2 className={styles.h2}>Exclusive product</h2>
                 <h3 className={styles.h3}>Sugar Scrubs</h3>
