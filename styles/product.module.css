@@ -42,26 +42,33 @@
 
 .para {
     color: rgba(4, 120, 87, 1);
-    width: 80%;
-    font-size: 1.5rem;
+    width: 58%;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
 }
 
 .ingredients {
     margin-top: 1.5rem;
     display: flex;
+    flex-direction: column;
+    width: 55%;
 }
-
+.line1 {
+    display: flex;
+}
 .title {
     color: rgba(4, 120, 87, 1);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .texts {
-    font-size: 1.5rem;
-    width: 90%;
+    font-size: 1.2rem;
     color: rgba(4, 120, 87, 1);
     margin-left: 0.5rem;
+}
+.text {
+    font-size: 1.2rem;
+    color: rgba(4, 120, 87, 1);
 }
 
 .btn {

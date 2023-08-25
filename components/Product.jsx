@@ -17,11 +17,13 @@ const Product = () => {
                     skin aging in a natural way.
                 </p>
                 <div className={styles.ingredients}>
-                    <h1 className={styles.title}>Ingredients:</h1>
-                    <span className={styles.texts}>
-                        brown sugar, coconut, jojoba, olive, almond, or
-                        grapeseed.
-                    </span>
+                    <div className={styles.line1}>
+                        <h1 className={styles.title}>Ingredients:</h1>
+                        <span className={styles.texts}>
+                            brown sugar, coconut, jojoba, olive,
+                        </span>
+                    </div>
+                    <span className={styles.text}>almond, or grapeseed.</span>
                 </div>
                 <h5 className={styles.btn}>View product</h5>
             </div>
