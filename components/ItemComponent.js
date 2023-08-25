@@ -3,17 +3,18 @@ import styles from "../styles/itemComponent.module.css";
 import { BsArrowRight } from "react-icons/bs";
 import { massageData } from "@/utils/massageData";
 import Buttons from "./Buttons";
+import Image from "next/image";
 
 const Card = ({ massage }) => {
     return (
         <div className={styles.card}>
             <h2 className={styles.name}>{massage.massageName}</h2>
-            <img className={styles.line} src={massage.line} alt="" />
+            <Image className={styles.line} src={massage.line} alt="" />
             <div className={styles.both}>
                 <p className={styles.price}>Price: ${massage.price / 100}</p>
                 <p className={styles.number}> {massage.massageNumber}</p>
             </div>
-            <img src={massage.media} alt={massage.massageName} />
+            <Image src={massage.media} alt={massage.massageName} />
             <div className={styles.end}>
                 <div className={styles.text}>select package</div>
                 <div className={styles.arrow}>
