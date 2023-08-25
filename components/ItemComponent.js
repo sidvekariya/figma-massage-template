@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/itemComponent.module.css";
 import { BsArrowRight } from "react-icons/bs";
 import { massageData } from "@/utils/massageData";
+import Buttons from "./Buttons";
 
 const Card = ({ massage }) => {
     return (
@@ -25,11 +26,23 @@ const Card = ({ massage }) => {
 
 const MassageCardList = () => {
     return (
-        <div className={styles.cardList}>
-            {massageData.map((massage) => (
-                <Card key={massage.id} massage={massage} />
-            ))}
-        </div>
+        <>
+            <div className={styles.cardList}>
+                {massageData.map((massage) => (
+                    <Card key={massage.id} massage={massage} />
+                ))}
+            </div>
+            <div>
+                <div className={styles.serviceButton}>
+                    <Buttons
+                        text="More services"
+                        backgroundGradient=" linear-gradient(45deg, #059669 0%, #10b981 100%), #059669"
+                        fontSize="1.2rem"
+                        textColor="white"
+                    />
+                </div>
+            </div>
+        </>
     );
 };
 
