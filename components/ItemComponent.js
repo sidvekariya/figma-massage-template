@@ -4,18 +4,37 @@ import { BsArrowRight } from "react-icons/bs";
 import { massageData } from "@/utils/massageData";
 import Buttons from "./Buttons";
 import Image from "next/image";
+import { Work_Sans } from "@next/font/google";
+import { Playfair_Display } from "@next/font/google";
+
+const worksans = Work_Sans({ subsets: ["latin"] });
+const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Card = ({ massage }) => {
     return (
         <div className={styles.card}>
-            <h2 className={styles.name}>{massage.massageName}</h2>
-            <Image className={styles.line} src={massage.line} alt="" />
-            <div className={styles.both}>
-                <p className={styles.price}>Price: ${massage.price / 100}</p>
+            <h2 style={PlayfairDisplay.style} className={styles.name}>
+                {massage.massageName}
+            </h2>
+            <Image
+                className={styles.line}
+                src={massage.line}
+                alt=""
+                width={300}
+                height={200}
+            />
+            <div style={worksans.style} className={styles.both}>
+                <p className={styles.price}>Rp. {massage.price}</p>
                 <p className={styles.number}> {massage.massageNumber}</p>
             </div>
-            <Image src={massage.media} alt={massage.massageName} />
-            <div className={styles.end}>
+            <Image
+                className={styles.media}
+                src={massage.media}
+                alt={massage.massageName}
+                width={300}
+                height={200}
+            />
+            <div style={worksans.style} className={styles.end}>
                 <div className={styles.text}>select package</div>
                 <div className={styles.arrow}>
                     <BsArrowRight />
