@@ -4,35 +4,33 @@ import Image from "next/image";
 import heroLogo from "@/public/images/heroLogo.png";
 import heroImg from "@/public/images/heroImg.png";
 import Buttons from "./Buttons";
+import { Work_Sans } from "@next/font/google";
+import { Playfair_Display } from "@next/font/google";
+
+const worksans = Work_Sans({ subsets: ["latin"] });
+const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Hero = () => {
     return (
         <div className={styles.heroContent}>
             <div className={styles.left}>
                 <div className={styles.logoText}>
-                    <Image
-                        className={styles.heroLogo}
-                        src={heroLogo}
-                        alt="logo"
-                    />
-                    <div className={styles.text}>The Day Beauty</div>
-                </div>
-                <div className={styles.title}>
-                    <div className={styles.heroTitle1}>
-                        <span className={styles.heroTitle2}>Be</span>
-                        <span className={styles.greenText}>Beautiful</span>
-                    </div>
-                    <div className={styles.heroTitle2}>
-                        You need time for perfection
+                    <Image className={styles.logo} src={heroLogo} alt="logo" />
+                    <div style={worksans.style} className={styles.text}>
+                        The Day Beauty
                     </div>
                 </div>
-                <div className={styles.buttons}>
+                <div style={PlayfairDisplay.style} className={styles.title}>
+                    Be <span className={styles.greenText}>Beautiful</span>
+                    <div> You need time for perfection</div>
+                </div>
+                <div style={worksans.style} className={styles.buttons}>
                     <div className={styles.button1}>
                         <Buttons
                             text="Become a member"
                             backgroundGradient=" linear-gradient(0deg, #059669 0%, #36DCA5 100%);
                             "
-                            fontSize="1.2rem"
+                            fontSize="1.1rem"
                             textColor="white"
                         />
                     </div>
@@ -41,13 +39,13 @@ const Hero = () => {
                             text="see pricing"
                             backgroundColor="white"
                             textColor="#10B981"
-                            fontSize="1.2rem"
+                            fontSize="1.1rem"
                         />
                     </div>
                 </div>
             </div>
 
-            <div className={styles.right}>
+            <div style={worksans.style} className={styles.right}>
                 <Image
                     className={styles.heroImg}
                     src={heroImg}
