@@ -6,9 +6,15 @@ import { LuPhoneCall } from "react-icons/lu";
 import { BsArrowRight } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 
+import { Work_Sans } from "@next/font/google";
+import { Playfair_Display } from "@next/font/google";
+
+const worksans = Work_Sans({ subsets: ["latin"] });
+const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
+
 const Footer = () => {
     return (
-        <div className={styles.footer}>
+        <div style={worksans.style} className={styles.footer}>
             <div className={styles.left}>
                 <div className={styles.logo}>
                     <div className={styles.img}>
@@ -46,12 +52,18 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <h4>Get early promos</h4>
+                <h4 className={styles.h4}>Get early promos</h4>
                 <div className={styles.email}>
-                    <div className={styles.emailText}>Your Email</div>
+                    <div className={styles.emailText}>
+                        <input
+                            className={styles.input}
+                            type="text"
+                            placeholder="Your Email"
+                        />
+                    </div>
                     <BsArrowRight />
                 </div>
-                <div className={styles.underLine}></div>
+                <div className={styles.underline}></div>
             </div>
         </div>
     );
