@@ -11,9 +11,8 @@ const Buttons = ({
         backgroundColor: backgroundColor,
         background: backgroundGradient,
         color: textColor,
-        padding: "10px 20px",
+        padding: "0.8rem 1.75rem",
         border: "none",
-        borderRadius: "5px",
         cursor: "pointer",
         fontSize: fontSize,
     };
