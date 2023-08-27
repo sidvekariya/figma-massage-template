@@ -1,104 +1,95 @@
 .content {
-    margin-top: 9rem;
-    margin-left: 5rem;
-    display: flex;
-    margin-bottom: 5rem;
     position: relative;
 }
+
 .greenDiv {
-    background: linear-gradient(45deg, #059669 0%, #10b981 100%), #059669;
-    height: 34.4rem;
-    width: 100vw;
-    margin-top: 4rem;
-    margin-left: 10rem;
-    z-index: -1;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
-.left {
-    background-color: rgba(236, 253, 245, 1);
-    width: 60%;
-    padding: 2rem 0;
-    padding-left: 4.56rem;
-    height: 95%;
-    left: -5%;
-    margin-left: 6.5rem;
+.div {
+    background-color: green;
+    height: 5rem;
+    width: 20rem;
+    margin-top: 10.1rem;
+    margin-left: 11.1rem;
+    height: 28.1rem;
+    width: 100vw;
+    background: linear-gradient(46deg, #059669 0%, #10b981 100%);
+}
+
+.girl {
+    width: 67%;
+    height: auto;
     position: absolute;
-    top: -5%;
+    right: 0;
+    bottom: 0;
+}
+
+.lightGreen {
+    height: 30.3rem;
+    width: 48.25rem;
+    background: #ecfdf5;
+    position: absolute;
+    top: 5.75rem;
+    margin-left: 6.5rem;
+    padding-left: 4.56rem;
+    padding-top: 4.81rem;
+    padding-bottom: 5rem;
 }
 
 .h2 {
-    background-color: rgba(4, 120, 87, 1);
+    background: #047857;
+    width: 10.62rem;
+    height: 2.12rem;
     font-size: 1rem;
-    width: 18%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    color: white;
-    padding: 0.4rem 0.5rem;
-    margin-top: 4.81rem;
     font-weight: 500;
+    color: #ecfdf5;
 }
+
 .h3 {
+    margin-top: 0.62rem;
     font-size: 2.5rem;
-    width: 40%;
-    color: rgba(4, 120, 87, 1);
-    margin-top: 0.6rem;
+    color: #047857;
     font-weight: 700;
 }
 
 .para {
-    color: rgba(4, 120, 87, 1);
-    width: 76%;
-    font-size: 1.6rem;
     margin-top: 1.5rem;
-    font-style: italic;
-    line-height: 2.2rem;
     font-weight: 400;
+    font-size: 1.1rem;
+    color: #047857;
+    width: 31.5rem;
+    line-height: 1.68rem;
 }
 
 .ingredients {
-    margin-top: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    width: 65%;
+    margin-top: 1.25rem;
+    color: #047857;
     font-size: 1.1rem;
-    line-height: 2.2rem;
-}
-.line1 {
-    display: flex;
-}
-.title {
-    color: rgba(4, 120, 87, 1);
-    font-size: 1.6rem;
+    width: 29.8rem;
+    font-weight: 600px;
+    line-height: 1.68rem;
+    height: 3.3rem;
 }
 
-.texts {
-    font-size: 1.6rem;
-    color: rgba(4, 120, 87, 1);
-    margin-left: 0.5rem;
-}
-.text {
-    font-size: 1.6rem;
-    color: rgba(4, 120, 87, 1);
+.bold {
+    font-weight: bold;
 }
 
 .btn {
-    margin-top: 2.5rem;
-    color: rgba(4, 120, 87, 1);
-    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    color: #047857;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .underline {
-    background-color: rgba(4, 120, 87, 1);
-    width: 11rem;
-    height: 0.2rem;
-    margin-top: 0.5rem;
-}
-
-.girl {
-    height: auto;
-    width: 75rem;
-    margin-top: -12rem;
-    position: absolute;
-    right: 0;
+    margin-top: 0.3rem;
+    height: 0.1rem;
+    width: 7.5rem;
+    background-color: #047857;
 }

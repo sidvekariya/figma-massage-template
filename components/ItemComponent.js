@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../styles/itemComponent.module.css";
 import { BsArrowRight } from "react-icons/bs";
 import { massageData } from "@/utils/massageData";
-import Buttons from "./Buttons";
 import Image from "next/image";
 import { Work_Sans } from "@next/font/google";
 import { Playfair_Display } from "@next/font/google";
@@ -35,7 +34,7 @@ const Card = ({ massage }) => {
                 height={200}
             />
             <div style={worksans.style} className={styles.end}>
-                <div className={styles.text}>select package</div>
+                <div className={styles.text}>Select package</div>
                 <div className={styles.arrow}>
                     <BsArrowRight />
                 </div>
@@ -54,13 +53,7 @@ const MassageCardList = () => {
             </div>
             <div>
                 <div className={styles.serviceButton}>
-                    <Buttons
-                        text="More services"
-                        backgroundGradient=" linear-gradient(270deg, #059669 0%, #10B981 100%);
-                            "
-                        fontSize="1.2rem"
-                        textColor="white"
-                    />
+                    <button className={styles.btn}>More services</button>
                 </div>
             </div>
         </>

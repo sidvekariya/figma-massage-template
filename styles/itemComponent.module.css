@@ -7,7 +7,6 @@
 
 .card {
     flex: 1;
-    /* max-width: calc(33.33% - 20px); */
     background: linear-gradient(45deg, #059669 0%, #10b981 100%), #059669;
     border: 1px solid #1301010c;
     padding: 0rem 3rem;
@@ -18,7 +17,6 @@
 
 .name {
     font-size: 2.2rem;
-    width: calc(100% - 20%);
     line-height: 3.5rem;
     margin-top: 6.12rem;
     font-weight: 700;
@@ -28,6 +26,7 @@
 .line {
     width: 100%;
     height: auto;
+    margin-top: 2rem;
 }
 
 .both {
@@ -41,21 +40,22 @@
     background-color: #047857;
     border-radius: 1rem;
     width: 35%;
-
     height: 1.56rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    margin-top: 1rem;
 }
 .number {
+    margin-top: 1rem;
     font-size: 1.1rem;
 }
 
 .media {
     width: 100%;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 1.25rem;
     box-shadow: -10px 12px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -63,7 +63,7 @@
     display: flex;
     gap: 0.75rem;
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 2.56rem;
 }
 
 .arrow {
@@ -74,7 +74,16 @@
 
 .serviceButton {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    width: 14.25rem;
+    height: 3.75rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(270deg, #059669 0%, #10b981 100%);
+    color: white;
 }

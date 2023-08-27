@@ -1,7 +1,8 @@
 .footer {
     display: flex;
     color: green;
-    padding-bottom: 3rem;
+    margin-top: 12.5rem;
+    margin-bottom: 4.18rem;
 }
 
 .left {
@@ -24,61 +25,73 @@
 .logoText {
     width: 50%;
     font-size: 1.2rem;
+    color: #059669;
 }
 
 .copyright {
     font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #064e3b;
+    font-weight: 500;
 }
 
 .h4 {
-    color: rgb(1, 86, 1);
+    color: #064e3b;
     font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .about {
-    margin-left: 5rem;
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    color: #064e3b;
     font-size: 1.2rem;
+    gap: 1.25rem;
 }
 .articles {
-    margin-left: 5rem;
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
-    gap: 1rem;
+    gap: 1.25rem;
+    color: #064e3b;
 }
+
 .contact {
-    margin-left: 5rem;
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
-    gap: 1rem;
+    color: #064e3b;
+    gap: 1.1rem;
 }
 
 .phoneNumber {
     display: flex;
+    color: #064e3b;
     gap: 1rem;
 }
 .whatsapp {
     display: flex;
+    color: #064e3b;
     gap: 1rem;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
 .email {
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .emailText {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .input {
@@ -89,13 +102,19 @@
     font-size: 1rem;
 }
 
-.input:hover {
-    text-decoration: underline;
+.input:focus {
+    outline: none;
 }
 
-.underline {
+.input:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.underLine {
     background-color: rgba(4, 120, 87, 1);
-    width: 18rem;
-    height: 0.2rem;
+    width: 301px;
+    height: 0.1rem;
     margin-top: -2rem;
+    margin-right: 100px;
 }

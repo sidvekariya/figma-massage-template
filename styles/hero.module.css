@@ -5,11 +5,7 @@
 }
 
 .left {
-    width: 50vw;
-    padding: 0 6rem;
-    padding-top: 3rem;
-    margin-left: 6.5rem;
-    padding-bottom: 5rem;
+    width: 50%;
 }
 
 .logoText {
@@ -17,7 +13,8 @@
     align-items: center;
     color: rgba(5, 150, 105, 1);
     gap: 0.5rem;
-    margin-top: 3.5rem;
+    margin-top: 56px;
+    margin-left: 104px;
 }
 
 .logo {
@@ -33,20 +30,21 @@
 
 .title {
     font-size: 3.5rem;
-    margin-top: 7.25rem;
+    margin-top: 5.25rem;
+    margin-left: 78px;
     font-weight: 900;
     color: #064e3b;
 }
 
 .greenText {
-    color: rgba(5, 150, 105, 1);
+    color: #10b981;
 }
 
 .buttons {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
     margin-top: 4rem;
-    font-weight: 500;
+    margin-left: 78px;
 }
 
 .button2 {
@@ -54,73 +52,74 @@
 }
 
 .right {
-    width: 50vw;
+    width: 50%;
     position: relative;
 }
 
 .heroImg {
     height: auto;
-    width: 170%;
+    width: 164%;
     display: block;
 }
 
 .discountDiv {
-    gap: 6rem;
+    width: 467px;
     display: flex;
-    height: 7rem;
-    justify-content: space-between;
-    border: 1px solid white;
+    height: 108px;
+    gap: 3rem;
     position: absolute;
-    top: 74.5%;
-    left: -10%;
+    top: 570px;
+    padding-top: 8px;
+    left: -5rem;
     background-color: white;
-    padding: 1rem 1rem;
 }
 
-.Text1 {
-    font-weight: 700;
+.text1 {
+    width: 117px;
+    height: 22px;
     font-size: 1rem;
-    display: flex;
-    height: 1rem;
-    align-items: center;
+    font-weight: 700;
     color: #047857;
+    margin-left: 0.9rem;
 }
-.Text2 {
+.text2 {
+    width: 287px;
+    height: 18px;
+    font-size: 0.8rem;
     font-weight: 600;
-    font-size: 0.9rem;
-    height: 1rem;
-    display: flex;
-    align-items: center;
     color: #059669;
-}
-
-.timeDiv {
-    background: linear-gradient(360deg, #059669 0%, #10b981 100%);
-    height: 6rem;
-    width: 65%;
-    display: flex;
-    position: absolute;
-    top: 80%;
-    left: -10.5%;
-    padding: 4rem 3rem;
-    color: white;
-    gap: 0rem;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.time {
+    margin-left: -1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.8rem;
-    font-weight: bold;
+    line-height: 18.2px;
+    margin-top: 0.2rem;
 }
 
-.timeText {
-    font-size: 1rem;
+.timeDiv {
+    width: 425px;
+    height: 108px;
+    background: linear-gradient(360deg, #059669 0%, #10b981 100%);
+    position: absolute;
+    top: 78%;
+    left: -9%;
+    padding-left: 55px;
+    padding-top: 15px;
 }
 
+.times {
+    display: flex;
+    width: 321px;
+    height: 69px;
+    justify-content: space-between;
+    color: white;
+}
+
+.time,
 .colon {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.textText {
+    font-size: 15px;
 }

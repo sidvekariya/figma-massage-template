@@ -2,15 +2,12 @@ import React from "react";
 import styles from "../styles/footer.module.css";
 import Image from "next/image";
 import logo from "@/public/images/heroLogo.png";
-import { LuPhoneCall } from "react-icons/lu";
+import { HiOutlinePhone } from "react-icons/hi";
 import { BsArrowRight } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
-
 import { Work_Sans } from "@next/font/google";
-import { Playfair_Display } from "@next/font/google";
 
 const worksans = Work_Sans({ subsets: ["latin"] });
-const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Footer = () => {
     return (
@@ -28,42 +25,42 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.about}>
-                    <h4 className={styles.h4}>About</h4>
+                    <div className={styles.h4}>About</div>
                     <div>Profile</div>
                     <div>Services</div>
                     <div>Pricing</div>
                 </div>
                 <div className={styles.articles}>
-                    <h4 className={styles.h4}>Articles</h4>
+                    <div className={styles.h4}>Articles</div>
                     <div>Healthline</div>
                     <div>News</div>
                     <div>Promos</div>
                 </div>
                 <div className={styles.contact}>
-                    <h4 className={styles.h4}>Contact</h4>
+                    <div className={styles.h4}>Contact</div>
                     <div className={styles.phoneNumber}>
-                        <LuPhoneCall />
-                        <h4>0351 2799 2331</h4>
+                        <HiOutlinePhone />
+                        <div> (0351) 2799 2331</div>
                     </div>
                     <div className={styles.whatsapp}>
                         <BsWhatsapp />
-                        <h4>0812 2000 9009</h4>
+                        <div>0812 2000 9009</div>
                     </div>
                 </div>
             </div>
             <div className={styles.right}>
-                <h4 className={styles.h4}>Get early promos</h4>
+                <div className={styles.h4}>Get early promos</div>
                 <div className={styles.email}>
                     <div className={styles.emailText}>
                         <input
                             className={styles.input}
                             type="text"
-                            placeholder="Your Email"
+                            placeholder="YOUR EMAIL"
                         />
                     </div>
                     <BsArrowRight />
                 </div>
-                <div className={styles.underline}></div>
+                <div className={styles.underLine}></div>
             </div>
         </div>
     );
