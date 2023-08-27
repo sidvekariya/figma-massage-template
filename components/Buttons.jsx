@@ -1,23 +1,23 @@
 import React from "react";
+import styles from "../styles/button.module.css";
 
-const Buttons = ({
-    text,
-    backgroundColor,
-    textColor,
-    backgroundGradient,
-    fontSize,
-}) => {
-    const buttonStyle = {
-        backgroundColor: backgroundColor,
-        background: backgroundGradient,
-        color: textColor,
-        padding: "0.8rem 1.75rem",
-        border: "none",
-        cursor: "pointer",
-        fontSize: fontSize,
-    };
+import { Work_Sans } from "@next/font/google";
+import { Playfair_Display } from "@next/font/google";
 
-    return <button style={buttonStyle}>{text}</button>;
+const worksans = Work_Sans({ subsets: ["latin"] });
+const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
+
+const Buttons = ({ text, backgroundColor }) => {
+    return (
+        <button
+            style={worksans.style}
+            className={`${styles.button} ${
+                backgroundColor === "green" ? styles.green : styles.white
+            }`}
+        >
+            {text}
+        </button>
+    );
 };
 
 export default Buttons;
