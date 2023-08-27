@@ -1,8 +1,12 @@
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import MassageCardList from "@/components/ItemComponent";
+import Product from "@/components/Product";
 import Head from "next/head";
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Head>
                 <title>Figma Massage Template</title>
                 <meta
@@ -15,6 +19,13 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-        </>
+
+            <div>
+                <Hero />
+                <MassageCardList />
+                <Product />
+                <Footer />
+            </div>
+        </div>
     );
 }
